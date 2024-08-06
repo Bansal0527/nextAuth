@@ -7,7 +7,7 @@ connect()
 export async function GET(request:NextRequest) {
         try {
             const response = NextResponse.json({
-                message:"Logput successfully",
+                message:"Logout successfully",
                 success: true
             })
 
